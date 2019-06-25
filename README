@@ -1,0 +1,26 @@
+pt-BR:
+
+Jogo Da Velha
+
+-> Para que serve?
+    É um jogo da velha em Python (sem interface gráfica) , onde deve se marcar com X e O, e quem conseguir colocar três X ou O um do lado do outro,
+    na vertical, na horizontal, ou na diagonal, ganha.
+
+-> Como executar o jogo?
+    Deve entrar em um terminal no diretório do jogo e dar o comando "python3.7 run.py".
+    OBS: Python >= 3.7
+
+
+
+en:
+
+Tic-Tac-Toe
+
+-> What is it for?
+    It is a Tic-Tac-Toe in Python (without graphical interface), where it should be marked with X and O, and who can put three X or O ones next to each other,
+    vertical, horizontal, or diagonal, wins.
+
+-> How to play the game?
+    You need to enter in a terminal in the game directory and give the command "python3.7 run.py".
+    NOTE: Python> = 3.7
+
