@@ -151,7 +151,7 @@ def run():
 
         c += 1
 
-    # Verify if no one win
+    # Verify if no one wins
     if without_victory:
         print('DEU VELHA!')
 
