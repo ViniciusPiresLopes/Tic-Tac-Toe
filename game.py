@@ -55,8 +55,8 @@ def run():
     player2_pos = ''
 
     # Choosing X or O
-    player1 = str(input('player1 [X ou O]? ')).upper()
-    player2 = str(input('player2 [X ou O]? ')).upper()
+    player1 = str(input('player1 [X ou O]? ')).lower()
+    player2 = str(input('player2 [X ou O]? ')).lower()
 
     # Tic-tac-toe with position for the user can understand
     sepl()
