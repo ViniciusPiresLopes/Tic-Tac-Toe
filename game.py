@@ -1,6 +1,3 @@
-import os
-
-
 def sepl(quant=30, symbol='-'):
     """
     Separator of line, print a symbol to separate lines
