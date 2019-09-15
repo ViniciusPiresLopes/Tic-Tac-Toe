@@ -103,7 +103,7 @@ def run():
                 print('DIGITE UMA DAS POSIÇÕES!')
 
         if str(pos + 1) not in player1_pos and str(pos + 1) not in player2_pos:
-            diferent_pos = True
+            different_pos = True
             structure.pop(pos)
             structure.insert(pos, [player_turn_value])
         else:
@@ -111,14 +111,14 @@ def run():
             continue
 
         # Save where the player1 or player2 passed
-        if diferent_pos and player_turn_name == 'player1':
+        if different_pos and player_turn_name == 'player1':
             list_temp1.append(str(pos + 1))
             list_temp1.sort()
             for element in list_temp1:
                 if element not in player1_pos:
                     player1_pos += element
 
-        elif diferent_pos:
+        elif different_pos:
             list_temp2.append(str(pos + 1))
             list_temp2.sort()
             for element in list_temp2:
