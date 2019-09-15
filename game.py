@@ -115,15 +115,13 @@ def run():
             list_temp1.append(str(pos + 1))
             list_temp1.sort()
             for element in list_temp1:
-                if element not in player1_pos:
-                    player1_pos += element
+                player1_pos += element
 
         elif different_pos:
             list_temp2.append(str(pos + 1))
             list_temp2.sort()
             for element in list_temp2:
-                if element not in player2_pos:
-                    player2_pos += element
+                player2_pos += element
 
         # Show the tic-tac-toe
         sepl()
