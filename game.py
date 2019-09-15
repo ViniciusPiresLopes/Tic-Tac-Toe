@@ -88,11 +88,14 @@ def run():
 
         # Input position to put the signal on the tic-tac-toe
         while True:
-            pos = int(input(f'[{player_turn_name}] Posição: ')) - 1
-            if pos + 1 > 9 or pos + 1 <= 0:
-                print('POSIÇÕES DEVEM SER ENTRE 1 E 9!')
-            else:
-                break
+            try:
+                pos = int(input(f'[{player_turn_name}] Posição: ')) - 1
+                if pos + 1 > 9 or pos + 1 <= 0:
+                    print('POSIÇÕES DEVEM SER ENTRE 1 E 9!')
+                else:
+                    break
+            except ValueError:
+                print('DIGITE UMA DAS POSIÇÕES!')
 
         if str(pos + 1) not in player1_pos and str(pos + 1) not in player2_pos:
             diferent_pos = True
