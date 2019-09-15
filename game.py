@@ -52,8 +52,13 @@ def run():
     player2_pos = ''
 
     # Choosing X or O
-    player1 = str(input('player1 [x ou o]? ')).lower()
-    player2 = str(input('player2 [x ou o]? ')).lower()
+    not_std_symbols = True
+    while not_std_symbols:
+        player1 = str(input('player1 [x ou o]? ')).lower()
+        player2 = str(input('player2 [x ou o]? ')).lower()
+        if player1 != 'x' and player1 != 'o' or player2 != 'x' and player2 != 'o':
+            print('Please choose "x" or "o" (standard values).')
+        break
 
     # Tic-tac-toe with position for the user can understand
     sepl()
