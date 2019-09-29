@@ -58,6 +58,7 @@ def run():
         player2 = str(input('player2 [x ou o]? ')).lower()
         if player1 != 'x' and player1 != 'o' or player2 != 'x' and player2 != 'o':
             print('Please choose "x" or "o" (standard values).')
+            continue
         break
 
     # Tic-tac-toe with position for the user can understand
