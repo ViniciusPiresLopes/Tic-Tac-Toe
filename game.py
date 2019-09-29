@@ -57,7 +57,7 @@ def run():
         player1 = str(input('player1 [x ou o]? ')).lower()
         player2 = str(input('player2 [x ou o]? ')).lower()
         if player1 != 'x' and player1 != 'o' or player2 != 'x' and player2 != 'o':
-            print('Please choose "x" or "o" (standard values).')
+            print('Por favor, escolha "x" ou "o" (valores padrões).')
             continue
         break
 
