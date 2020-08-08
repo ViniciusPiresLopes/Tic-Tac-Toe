@@ -168,9 +168,10 @@ def run() -> None:
         
         # 1 for player 1 and 2 for player 2, can't be 0
         turn = 1
+        
+        # Count the times the loop run
         times = 0
-
-        # Show the game (grid) state
+        
         while True:
             # Show the title
             clear_screen()
